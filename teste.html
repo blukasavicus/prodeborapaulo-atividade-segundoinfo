@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste do Polígrafo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Teste do Polígrafo</h2>
+        <form id="formularioPoligrafo">
+            <div class="pergunta" id="pergunta1">
+                <p>1. Você ligou para a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta2">
+                <p>2. Esteve no local da ocorrência?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta3">
+                <p>3. Mora perto da vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta4">
+                <p>4. Já trabalhou com a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta5">
+                <p>5. Devia para a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta6">
+                <p>6. Conhecia a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta7">
+                <p>7. Tem alguma desavença com a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta8">
+                <p>8. Já discutiu com a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta9">
+                <p>9. Já ameaçou a vítima?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <div class="pergunta" id="pergunta10">
+                <p>10. A vítima já te ameaçou?</p>
+                <button type="button" class="botao-resposta" data-answer="sim">Sim</button>
+                <button type="button" class="botao-resposta" data-answer="não">Não</button>
+            </div>
+            <button type="submit" id="botaoEnviar">Enviar</button>
+        </form>
+        <div id="resposta" class="resultado-container">
+            <img id="imagemResultado" class="resultado-img" src="./imgs/culpado.jpg" alt="Resultado">
+            <div id="textoResultado" class="resultado-texto"></div>
+            <button id="botaoRefazer">Refazer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
